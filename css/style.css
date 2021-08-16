@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  background-color: white; }
+
+body {
+  line-height: 1,3rem; }
+
+li {
+  list-style-type: none; }
+
+header {
+  margin-bottom: 130px; }
+  header .company-name {
+    margin: 2rem 0; }
+    header .company-name h1 {
+      color: black;
+      text-transform: capitalize;
+      text-align: center; }
+  header .menu li {
+    float: left; }
+    header .menu li a {
+      font-size: 1.5rem;
+      padding: 10px 15px 10px 0px;
+      margin-left: 128px;
+      text-transform: capitalize;
+      color: black;
+      text-decoration: underline; }
+
+main {
+  margin-top: 20px; }
+  main .banner {
+    margin-bottom: 5rem;
+    position: relative; }
+    main .banner .banner-background img {
+      width: 100%;
+      height: 25rem;
+      object-fit: cover; }
+    main .banner .banner-text {
+      background-color: white;
+      position: absolute;
+      top: 10rem;
+      left: 0;
+      right: 0; }
+      main .banner .banner-text h2, main .banner .banner-text h4 {
+        color: black;
+        text-transform: capitalize;
+        text-align: center; }
+  main .portfolio .porfolio-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3rem; }
+  main .portfolio .porfolio-sector .sector {
+    margin-bottom: 2rem; }
+    main .portfolio .porfolio-sector .sector .sector-image img {
+      width: 100%;
+      height: 10rem;
+      object-fit: cover; }
+  main .team {
+    position: relative; }
+    main .team .title {
+      text-transform: capitalize;
+      text-align: center; }
+    main .team .team-member .background-image img {
+      width: 100%;
+      height: 40rem;
+      object-fit: cover; }
+    main .team .team-member .member {
+      position: absolute;
+      z-index: 2;
+      left: 15%;
+      right: 15%;
+      top: 21%; }
+      main .team .team-member .member .col-md-4 .member-image {
+        margin-bottom: 1.5rem; }
+        main .team .team-member .member .col-md-4 .member-image img {
+          width: 90%;
+          height: 21rem;
+          object-fit: cover; }
+      main .team .team-member .member .col-md-4 .member-name {
+        color: white;
+        text-transform: capitalize;
+        text-align: center; }
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: capitalize; }
+  footer h2 {
+    margin-bottom: 2rem; }
+  footer h3 {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem; }
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  header {
+    margin-bottom: 54px; }
+    header .menu {
+      padding-left: 7px; }
+      header .menu li {
+        float: none; }
+        header .menu li a {
+          font-size: 1.2rem;
+          margin-left: 0; }
+
+  main .banner .banner-text {
+    top: 8rem; }
+    main .banner .banner-text h2 {
+      font-size: 1.3rem; }
+    main .banner .banner-text h4 {
+      font-size: 1.2rem; }
+  main .portfolio .porfolio-title {
+    margin-bottom: 8rem; }
+  main .portfolio .porfolio-sector .sector {
+    margin-bottom: 2rem; }
+    main .portfolio .porfolio-sector .sector .sector-image img {
+      width: 100%;
+      height: 10rem;
+      object-fit: cover; }
+  main .team {
+    position: relative; }
+    main .team .title {
+      text-transform: capitalize;
+      text-align: center; }
+    main .team .team-member .background-image img {
+      width: 100%;
+      height: 108rem;
+      object-fit: cover; }
+    main .team .team-member .member {
+      left: 20%;
+      right: 11%;
+      top: 5%; }
+      main .team .team-member .member .col-md-4 .member-image {
+        margin-bottom: 1.5rem; }
+        main .team .team-member .member .col-md-4 .member-image img {
+          width: 90%;
+          height: 21rem;
+          object-fit: cover; }
+
+  footer .introduction {
+    display: none; } }
+@media only screen and (min-width: 321px) and (max-width: 575px) {
+  header {
+    margin-bottom: 54px; }
+    header .menu {
+      padding-left: 7px; }
+      header .menu li {
+        float: none; }
+        header .menu li a {
+          font-size: 1.3rem;
+          margin-left: 0; }
+
+  main .banner .banner-text h2 {
+    font-size: 1.4rem; }
+  main .banner .banner-text h4 {
+    font-size: 1.3rem; }
+  main .team {
+    position: relative; }
+    main .team .title {
+      text-transform: capitalize;
+      text-align: center; }
+    main .team .team-member .background-image img {
+      width: 100%;
+      height: 108rem;
+      object-fit: cover; }
+    main .team .team-member .member {
+      left: 20%;
+      right: 11%;
+      top: 5%; }
+      main .team .team-member .member .col-md-4 .member-image {
+        margin-bottom: 1.5rem; }
+        main .team .team-member .member .col-md-4 .member-image img {
+          width: 90%;
+          height: 21rem;
+          object-fit: cover; }
+
+  footer .introduction {
+    display: none; } }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    margin-bottom: 54px; }
+    header .menu {
+      padding-left: 7px; }
+      header .menu li {
+        float: none; }
+        header .menu li a {
+          font-size: 1.5rem;
+          margin-left: 0; }
+
+  main .team .team-member .background-image img {
+    height: 95rem; }
+  main .team .team-member .member {
+    left: 20%;
+    right: 11%;
+    top: 7%; }
+    main .team .team-member .member .col-md-4 .member-image {
+      margin-bottom: 1.5rem; }
+      main .team .team-member .member .col-md-4 .member-image img {
+        width: 90%;
+        height: 21rem;
+        object-fit: cover; } }
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    margin-bottom: 121px; }
+    header .menu {
+      margin: auto; }
+      header .menu li {
+        float: left; }
+        header .menu li a {
+          font-size: 1.5rem;
+          margin-left: 0;
+          padding: 10px 15px; }
+
+  main .banner .banner-text {
+    top: 9rem; }
+    main .banner .banner-text h2 {
+      font-size: 2rem; }
+    main .banner .banner-text h4 {
+      font-size: 1.5rem; }
+  main .portfolio .porfolio-sector .sector {
+    margin-bottom: 2rem; }
+    main .portfolio .porfolio-sector .sector .sector-name h3 {
+      font-size: 1.3rem; }
+  main .team .team-member .background-image img {
+    height: 43rem; }
+  main .team .team-member .member {
+    left: 10%;
+    right: 10%;
+    top: 13%; }
+    main .team .team-member .member .col-md-4 .member-image {
+      margin-bottom: 1.5rem; }
+      main .team .team-member .member .col-md-4 .member-image img {
+        width: 90%;
+        height: 21rem;
+        object-fit: cover; } }
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    margin-bottom: 130px; }
+    header .company-name {
+      margin: 2rem 0; }
+      header .company-name h1 {
+        color: black;
+        text-transform: capitalize;
+        text-align: center; }
+    header .menu {
+      margin: auto; }
+      header .menu li {
+        float: left; }
+        header .menu li a {
+          font-size: 1.5rem;
+          padding: 10px 105px 10px 0px;
+          margin-left: 17px;
+          text-transform: capitalize;
+          color: black;
+          text-decoration: underline; } }
+@media only screena and (min-width: 1200px) and (max-width: 1399.98px) {
+  header {
+    margin-bottom: 130px; }
+    header .company-name {
+      margin: 2rem 0; }
+      header .company-name h1 {
+        color: black;
+        text-transform: capitalize;
+        text-align: center; }
+    header .menu {
+      margin: auto; }
+      header .menu li {
+        float: left; }
+        header .menu li a {
+          font-size: 1.5rem;
+          padding: 10px 105px 10px 0px;
+          margin-left: 116px;
+          text-transform: capitalize;
+          color: black;
+          text-decoration: underline; } }
+
+/*# sourceMappingURL=style.css.map */
