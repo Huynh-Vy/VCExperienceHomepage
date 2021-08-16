@@ -5,5 +5,5 @@
 ### Technologies:
 
 * HTML
-* CSS
+* SCSS
 * Bootstrap
